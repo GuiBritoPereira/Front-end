@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: purple;
+}
+
+header {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    
+    width: 20vw;
+    height: 100px;
+    margin: 1vw 1.25vw;
+    background-color: red;
+    float: left;
+    
+
+}
