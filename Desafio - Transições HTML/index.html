@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transições HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Seção de Cabeçalho -->
+    <section class="headerSection">
+        <article class="busca">
+            <input type="text" id="buscar" placeholder="Buscar...">
+        </article>
+        <article class="categorias">
+            <a href="./categorias.html" class="navegacao">Categorias</a>
+            <a href="./index.html" class="navegacao">Ofertas do dia</a>
+            <a href="./historico.html" class="navegacao">Histórico</a>
+            <a href="./moda.html" class="navegacao">Moda</a>
+            <a href="./cadastro.html" class="navegacao">Cadastro</a>
+        </article>
+    </section>
+
+    <!-- Seção de Conteúdo Principal -->
+    <section class="conteudo">
+        <div class="ofertas">
+            <div class="pagamentoRapido">
+                <h2>Pagamento rápido e seguro</h2>
+                <h3>Com cartão</h3>
+            </div>
+
+            <div class="oferta">
+                <h2>Até 10 parcelas sem juros</h2>
+                <h3>Ver mais</h3>
+            </div>
+
+            <div class="oferta">
+                <h2>Parcelamentos sem cartão</h2>
+                <h3>Conheça o mercado de crédito</h3>
+            </div>
+
+            <div class="oferta">
+                <h2>Via Pix</h2>
+                <h3>Ver mais</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section class="marketItens">
+        <div class="marketItem">
+            <img class="imgCell" src="https://t62533.vteximg.com.br/arquivos/ids/930733-1000-1000/smartphone-samsung-a23-128gb-50mp-multicameras-dual-chip-1.jpg?v=638137284411100000" alt="Celular">
+            <h2 class="titulo">R$1.994</h2>
+            <h3 class="subTitulo">Galaxy S21</h3>
+        </div>
+
+        <div class="marketItem">
+            <img class="imgCell" src="https://t62533.vteximg.com.br/arquivos/ids/930733-1000-1000/smartphone-samsung-a23-128gb-50mp-multicameras-dual-chip-1.jpg?v=638137284411100000" alt="Celular">
+            <h2 class="titulo">R$1.994</h2>
+            <h3 class="subTitulo">Galaxy S21</h3>
+        </div>
+
+        <div class="marketItem">
+            <img class="imgCell" src="https://t62533.vteximg.com.br/arquivos/ids/930733-1000-1000/smartphone-samsung-a23-128gb-50mp-multicameras-dual-chip-1.jpg?v=638137284411100000" alt="Celular">
+            <h2 class="titulo">R$1.994</h2>
+            <h3 class="subTitulo">Galaxy S21</h3>
+        </div>
+
+        <div class="marketItem">
+            <img class="imgCell" src="https://t62533.vteximg.com.br/arquivos/ids/930733-1000-1000/smartphone-samsung-a23-128gb-50mp-multicameras-dual-chip-1.jpg?v=638137284411100000" alt="Celular">
+            <h2 class="titulo">R$1.994</h2>
+            <h3 class="subTitulo">Galaxy S21</h3>
+        </div>
+    </section>
+
+    <!-- Seção de Formulário -->
+    <section class="formulario">
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+            <label for="repetir">Repita sua senha</label>
+            <input type="password" name="repetir" id="repetir" required>
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo" required>
+                <option selected disabled value="">Selecione seu sexo</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outros">Outros</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>
