@@ -1,0 +1,41 @@
+
+input:focus {
+    outline-color: purple;
+  }
+  
+  
+  @media only screen and (min-width: 800px) {
+    .informacao {
+        float: left; 
+        width: 30%;  
+    }
+    .horarios {
+        float: left; 
+        width: 50%;  
+    }
+  }
+  
+
+  @media only screen and (min-width: 400px) and (max-width: 799px) {
+    .informacao {
+        float: left; 
+        width: 40%;  
+    }
+    .horarios {
+        float: left; 
+        width: 40%;  
+    }
+  }
+  
+
+  @media only screen and (max-width: 399px) {
+    .informacao {
+        float: none; 
+        width: 100%; 
+    }
+    .horarios {
+        float: none;
+        width: 100%; 
+    }
+  }
+  

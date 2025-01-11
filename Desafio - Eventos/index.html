@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="cadastroLoja">
+        <fieldset id="campos">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="informacao">
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco">
+            </div>
+            <div class="informacao">
+               <label for="diasDaSemana">Dias da semana de funcionameto</label>
+               <select type="text" name="diasDaSemana" id="diasDaSemana">
+                    <option value="segunda">Segunda</option>
+                    <option value="terca">Terça</option> 
+                    <option value="quarta">Quarta</option> 
+                    <option value="quinta">Quinta</option> 
+                    <option value="sexta">Sexta</option> 
+                    <option value="sabado">Sabado</option> 
+                    <option value="domingo">Domingo</option> 
+                </select>
+            </div>
+            <div class="horarios"> 
+                <label for="">Horario de Abertura</label>
+                <input type="time" name="abertura" id="abertura">
+            </div>
+            <div class="horarios">
+                <label for="">Horario de Fechamento</label>
+                <input type="time" name="fechamento" id="fechamento">
+            </div>
+            <input type="submit" value="enviar">
+        </fieldset>
+
+    </section>
+    <script src="eventos.js"></script>
+</body>
+</html>
